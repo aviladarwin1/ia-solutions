@@ -1,0 +1,27 @@
+# Agente Gmail
+
+## Descripcion
+Agente de automatizacion para gestion inteligente de correos electronicos en Gmail. Permite clasificar, responder y procesar emails automaticamente para restaurantes y negocios.
+
+## Funcionalidades
+- Clasificacion automatica de correos entrantes
+- Respuestas automaticas a consultas frecuentes
+- Redireccion de emails segun categoria
+- Generacion de reportes de comunicaciones
+- Integracion con calendar para reservas por email
+
+## Tecnologias
+- Python 3.10+
+- Gmail API (Google)
+- OpenAI API
+- FastAPI
+
+## Instalacion
+```bash
+pip install -r requirements.txt
+cp .env.example .env
+python main.py
+```
+
+## Estado
+En desarrollo
